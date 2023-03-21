@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <LinearLayout
+        android:layout_gravity="right"
+        android:orientation="vertical"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:gravity="right">
+
+        <TextView
+            android:id="@+id/tvmensaje"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textColor="#000"
+            android:background="#25D366"
+            android:text="hola que tal?">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="right"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_gravity="center"
+            android:id="@+id/tv_fecha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp">
+        </TextView>
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/img_entregado"
+            android:src="@drawable/ic_entregado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </ImageView>
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/img_visto"
+            android:src="@drawable/ic_visto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </ImageView>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

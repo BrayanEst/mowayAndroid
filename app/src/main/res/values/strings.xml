@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Moway-Rutas</string>
+
+    <string name="menu_empresas">Empresa</string>
+    <string name="menu_Reportes">Reportes</string>
+    <string name="title_notifications">Calificanos</string>
+    <string name="menu_ayuda">Ayuda</string>
+
+
+    <string name="atras">atras</string>
+    <string name="logueo">logueo</string>
+    <string name="meno_mapa">Mapa</string>
+    <string name="title_activity_mapa_moway">Mapa_moway</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_mapaagrande">mapaagrande</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="cerrarSesion">  Cerrar sesion</string>
+
+
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.moway_rutas">
+
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logoapp"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logoapp"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MaterialComponents.Light.NoActionBar.Bridge"
+        android:usesCleartextTraffic="true">
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDcOg4D_bxlTP9mqrO7tiMbiCssUALD7m0">
+
+        </meta-data>
+
+        <activity
+            android:name=".EntyActivity" android:parentActivityName=".EntyActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".Splash_mapa"
+            android:exported="false" />
+        <activity
+            android:name=".LoginChat"
+            android:exported="false" />
+        <activity
+            android:name=".Mapaagrande"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Reportes"
+            android:exported="false" />
+        <activity
+            android:name=".MainFragments"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mapa2"
+        android:icon="@drawable/mapaicon"
+        android:title="@string/meno_mapa"
+        android:enabled="true"/>
+
+    <item
+        android:id="@+id/empresa2"
+        android:icon="@drawable/empresa"
+        android:title="@string/menu_empresas"
+        android:enabled="true"/>
+
+    <item
+        android:id="@+id/reportes2"
+        android:icon="@drawable/peligro"
+        android:title="@string/menu_Reportes"
+        android:enabled="true" />
+
+
+
+</menu>

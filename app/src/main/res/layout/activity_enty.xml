@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EntyActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/tollbar"
+            android:background="@color/colorPrimary"
+            android:theme="@style/Menustyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_margin="5dp"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/imguserentyactivity"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:civ_border_width="2dp"
+                app:civ_border_color="@color/white">
+
+            </de.hdodenhof.circleimageview.CircleImageView>
+
+            <TextView
+                android:id="@+id/textonameuser5"
+                android:layout_width="165dp"
+                android:layout_height="wrap_content"
+                android:shadowColor="#000000"
+                android:shadowDx="1"
+                android:shadowDy="2"
+                android:shadowRadius="2"
+                android:text="name_user"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:textStyle="bold">
+            </TextView>
+            <ImageView
+                android:visibility="gone"
+                android:id="@+id/icon_conectadoActivity"
+                android:src="@drawable/ic_conectado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </ImageView>
+            <ImageView
+                android:visibility="gone"
+                android:id="@+id/icon_desconectadoActivity"
+                android:src="@drawable/ic_desconectado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </ImageView>
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvchat"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/relative_mensaje"
+        android:layout_below="@+id/appbar">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <RelativeLayout
+        android:id="@+id/relative_mensaje"
+        android:layout_alignParentBottom="true"
+        android:padding="5dp"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <EditText
+            android:id="@+id/editTextTxtMensaje"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:hint="Escribe un mensaje...">
+        </EditText>
+        <ImageButton
+            android:id="@+id/btn_enviar_mensaje"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/ic_send_sms">
+        </ImageButton>
+    </RelativeLayout>
+</RelativeLayout>

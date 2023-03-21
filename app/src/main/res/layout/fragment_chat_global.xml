@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragments.Chat.FragmentChatGlobal">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardviewUserChat"
+        android:backgroundTint="#4C11FA"
+        app:cardCornerRadius="10dp"
+        android:elevation="10dp"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/linearmuprofile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_margin="5dp"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/imguserchat2"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                app:civ_border_width="2dp"
+                app:civ_border_color="@color/white"/>
+
+            <TextView
+                android:shadowColor="#000000"
+
+                android:shadowRadius="2"
+
+                android:shadowDx="1"
+
+                android:shadowDy="2"
+
+                android:textColor="@color/white"
+                android:id="@+id/textonameuser2"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:text="name_user"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvchatGlobal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/relative_mensajeGlobal"
+        android:layout_below="@+id/cardviewUserChat">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <RelativeLayout
+        android:id="@+id/relative_mensajeGlobal"
+        android:layout_alignParentBottom="true"
+        android:padding="5dp"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <EditText
+            android:id="@+id/ChatGlobalEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:hint="Escribe un mensaje...">
+
+        </EditText>
+
+        <ImageButton
+            android:id="@+id/EnviarImgButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/ic_send_sms">
+
+        </ImageButton>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

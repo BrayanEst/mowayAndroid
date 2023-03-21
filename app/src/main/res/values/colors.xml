@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+//paleta de colores
+    <color name="color_azul_oscuro_coffee_shop">#0099ff</color>
+    <color name="color_azul_claro_coffee_shop">#00cccc</color>
+    <color name="color_blanco_coffee_shop">#FFFFFFFF</color>
+    <color name="color_btones_coffee_shop">#03a9f4</color>
+    <color name="color_btoncerrar_coffee_shop">#DB011C</color>
+    <color name="color_negro_coffee_shop">#FF000000</color>
+    <color name="color_fondo_coffee_shop">#03a9f4</color>
+    <color name="color_fondo_submenu_coffee_shop">#E1F5FE</color>
+    <color name="color_azul">#3388D4</color>
+
+
+    <color name="verdeverde">#1EF532</color>
+    <color name="colormap">#ECE9F3</color>
+    <color name="colorAzulOO">#2A6DFA</color>
+    <color name="colorAzul">#3299E3</color>
+    <color name="orange">#FF8000</color>
+
+    //bagraund moway
+    <color name="bagraund">#1B262C</color>
+
+    //color wii
+    <color name="colorDivisor">#ECECEC</color>
+    <color name="Amaricho">#FA8453</color>
+
+
+    <color name="colorgris">#e8e6ec</color>
+    <color name="colornaranja">#F37B55</color>
+
+
+
+
+
+</resources>

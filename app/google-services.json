@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "482790140462",
+    "firebase_url": "https://chatmoway-default-rtdb.firebaseio.com",
+    "project_id": "chatmoway",
+    "storage_bucket": "chatmoway.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:482790140462:android:a47ffa89659a6d94e00dbf",
+        "android_client_info": {
+          "package_name": "com.example.moway_rutas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "482790140462-7ci1tpcpmcb5qpc9nnl1u8fjpnfukmp8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBV-1EXTTOwqYHF4Y9cZtM5KAEtDoD1Fbk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "482790140462-7ci1tpcpmcb5qpc9nnl1u8fjpnfukmp8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
